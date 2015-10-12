@@ -25,7 +25,7 @@ Defaults::$crossOriginResourceSharing = true;
 $r = new Restler();
 $r->setSupportedFormats('JsonFormat', 'YamlFormat', 'XmlFormat', 'HtmlFormat', 'UploadFormat');
 
-// Add endpoints here like:
+// Add endpoints here like (go into app directory there is the class for the endpoint):
 $r->addAPIClass('Demo');
 
 // For documentation
