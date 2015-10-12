@@ -1,6 +1,10 @@
 {
 	"name": "renemdeo/apistarter",
 	"description": "Microframework for creating API's quickly",
+	"keywords": ["framework", "apistarter","REST","api"],
+    "license": "MIT",
+    "homepage": "https://github.com/renomx/apistarter",
+    "type": "project",
 	"authors": [
 		{
 	        "name": "René Montes de Oca",

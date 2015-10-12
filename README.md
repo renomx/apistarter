@@ -12,3 +12,8 @@ API REST simple boilerplate or framework
 ### ¿Where to start? ###
 
 * the goal is to only run composer install renemdeo/apistarter folder and it will install it
+
+
+### ToDo ###
+
+Create Package
