@@ -4,16 +4,21 @@ API REST simple boilerplate or framework
 
 ### Dependencies ###
 
-* [Manejo de dependencias y autocargado de clases con Composer](https://getcomposer.org/)
+* [Composer](https://getcomposer.org/)
 * [Luracast Restler](http://luracast.com/products/restler)
 * [Redbean PHP](http://redbeanphp.com/)
-* [Httpful](http://phphttpclient.com/)
+* [Behat](http://phphttpclient.com/)
+* [PHPUnit](https://phpunit.de/)
 
 ### ¿Where to start? ###
 
-* the goal is to only run composer install renemdeo/apistarter folder and it will install it
+Just run 
+
+```
+composer create-project renemdeo/apistarter directory
+```
 
 
 ### ToDo ###
 
-Create Package
+Proper documentation, probably on the github wiki
