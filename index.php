@@ -26,7 +26,7 @@ $r = new Restler();
 $r->setSupportedFormats('JsonFormat', 'YamlFormat', 'XmlFormat', 'HtmlFormat', 'UploadFormat');
 
 // Add endpoints here like:
-//$r->addAPIClass('User');
+$r->addAPIClass('Demo');
 
 // For documentation
 $r->addApiClass('Resources');
