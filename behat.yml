@@ -1,8 +1,0 @@
-# behat.yml
-default:
-    paths:
-        features: 'features'
-        bootstrap: 'features/bootstrap' 
-    context:
-        parameters:
-            base_url: -your project url-
