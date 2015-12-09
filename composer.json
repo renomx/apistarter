@@ -1,0 +1,25 @@
+{
+	"name": "renemdeo/apistarter",
+	"description": "Microframework for creating API's quickly",
+	"keywords": ["framework", "apistarter","REST","api"],
+    "license": "MIT",
+    "homepage": "https://github.com/renomx/apistarter",
+    "type": "project",
+	"authors": [
+		{
+	        "name": "René Montes de Oca",
+	        "email": "reneamontes@gmail.com"
+        }
+	],
+	"require": {
+		"luracast/restler": "dev-master"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.7.*@dev",
+		"guzzle/guzzle":"~3.1.1",
+		"behat/behat":"2.5.*@stable"
+	},
+	"autoload": {
+		"classmap": ["app"]
+	}
+}
