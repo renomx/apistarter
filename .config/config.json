@@ -1,0 +1,10 @@
+{
+	"apns":"ssl://gateway.sandbox.push.apple.com:2195",
+	"passphrase":"",
+	"pem":"",
+	"apikey":"",
+	"pushPath":"",
+	"phpPath":"",
+	"logPath":"",
+	"servicesPath":""
+}
