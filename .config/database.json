@@ -1,7 +1,0 @@
-{
-	"driver":"mysql",
-	"host":"localhost",
-	"dbname":"homestead",
-	"user":"",
-	"pass":""
-}
