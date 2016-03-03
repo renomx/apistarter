@@ -21,7 +21,7 @@ class Device
 
 
 	/**
-	 * Get device information
+	 * Get device information 
 	 *
 	 * Based on device id it retrieves all device information
 	 *
