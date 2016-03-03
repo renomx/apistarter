@@ -89,6 +89,17 @@ class Device
 		}
 	}
 
+
+	/**
+	 * Create a new device
+	 *
+	 * Create a new device using the token
+	 *
+	 * @param string $token Device token
+	 *
+	 * @return array
+	 *
+	 */
 	public function post($device_token)
 	{
 		$dev = R::findOne('device', "token = ?", [$device_token]);
