@@ -17,6 +17,7 @@ use Luracast\Restler\Restler;
 use Luracast\Restler\Defaults;
 use Luracast\Restler\Resources;
 use Luracast\Restler\Format\HtmlFormat;
+use App\Services\Env;
 
 // Enable CORS by default
 Defaults::$crossOriginResourceSharing = true;
@@ -26,9 +27,11 @@ $r = new Restler();
 $r->setSupportedFormats('JsonFormat', 'YamlFormat', 'XmlFormat', 'HtmlFormat', 'UploadFormat');
 
 // Add endpoints here like (go into app directory there is the class for the endpoint):
-$r->addAPIClass('Demo');
+$r->addAPIClass('Device');
 
 // For documentation
 $r->addApiClass('Resources');
+
+Env::init();
  
 $r->handle();

@@ -1,10 +1,14 @@
 {
+	"env":"local",
 	"apns":"ssl://gateway.sandbox.push.apple.com:2195",
-	"passphrase":"",
-	"pem":"",
-	"apikey":"",
-	"pushPath":"",
-	"phpPath":"",
-	"logPath":"",
-	"servicesPath":""
+	"passphrase":"qwerty123",
+	"pem":"/Users/rene/Sites/dnanotificacions/push/ck.pem",
+	"apikey":"AIzaSyC_0q4CsnZto_TiiqEXVN9JRAp8iMNHIjo",
+	"pushPath":"/Users/rene/Sites/dnanotificacions/push/",
+	"phpPath":"/usr/bin/php",
+	"logPath":"/Users/rene/Sites/dnanotificacions/logs/",
+	"servicesPath":"/Users/rene/Sites/dnanotificacions/app/services/",
+	"elastic":"http://localhost:9200/laborra/",
+	"elasticOn":false,
+	"nuke":true
 }

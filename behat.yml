@@ -5,4 +5,5 @@ default:
         bootstrap: 'features/bootstrap' 
     context:
         parameters:
-            base_url: -your project url-
+            base_url: http://api.dnanotifications.dev
+            environment: local
